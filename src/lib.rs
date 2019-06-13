@@ -81,7 +81,7 @@
 #![allow(clippy::type_complexity, clippy::new_without_default)]
 
 mod app;
-mod app_service;
+pub mod app_service;
 mod config;
 mod data;
 pub mod error;
